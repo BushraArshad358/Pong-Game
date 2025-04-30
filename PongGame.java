@@ -116,7 +116,6 @@ public class Ponggame extends Application {
         gc.setFont(Font.font("Arial", 30));
         gc.setTextAlign(TextAlignment.CENTER);
 
-        // Show instructions only once
         if (showInstructions) {
             gc.setFont(Font.font("Verdana", 24));
             gc.setFill(Color.web("#333"));
@@ -127,7 +126,6 @@ public class Ponggame extends Application {
             return;
         }
 
-        // Game movement
         if (gameStarted) {
             ballXPos += ballXSpeed;
             ballYPos += ballYSpeed;
@@ -169,7 +167,6 @@ public class Ponggame extends Application {
             ballYSpeed *= -1;
         }
 
-        // Player Labels
         gc.setFont(Font.font("Courier New", 26));
         gc.fillText("Player 1", width / 4, 50);
         gc.fillText("Player 2", width * 3 / 4, 50);
