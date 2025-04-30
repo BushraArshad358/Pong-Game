@@ -23,6 +23,7 @@ Restart: Press the 🔁 Restart button.
 - JavaFX SDK
   
 # Installation
-git clone https://github.com/bushraarshad258/Pong-Game.git
-cd Pong-Game
+- Clone the repo
+  git clone https://github.com/bushraarshad258/Pong-Game.git
+  cd Pong-Game
 
