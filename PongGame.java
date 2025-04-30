@@ -1,6 +1,3 @@
-
-
-
 package application;
 
 import java.util.Random;
@@ -67,7 +64,7 @@ public class Ponggame extends Application {
             ballXSpeed = 1;
             ballYSpeed = 1;
             gameStarted = false;
-            showInstructions = true; // ✅ Add this line to show instructions again
+            showInstructions = true; 
             s = 0;
             restartButton.setVisible(false);
         });
